@@ -1,4 +1,104 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    display: fl;
+    
+}
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav div .icon{
+    margin-left: 10px;
+    padding: 17px;
+    display: inline-flex;
+}
+
+.nav-items{
+   display: inline-flex;
+    margin-left: 20px;
+}
+.nav-items ul{
+    display: inline-flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 35px;
+    
+}
+.nav-items ul li{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-items ul a{
+    font-weight: lighter;
+    width: 100%;
+    text-decoration: none;
+    color: #202124;
+    font-size: 14px;
+}
+.leftItem{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -5px;
+}
+.leftItem div div p{
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+}
+.leftItem div div{
+    width: 140px;
+    height: 40px;
+}
+.leftItem div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-top:8px;
+}
+.leftItem div div a{
+    width: 100%;
+    text-decoration: none;
+    color: #1a73e8;
+}
+.leftItem div .admin{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftItem div .contact{
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftItem div .contact a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftItem div .start{
+    border-radius: 5px;
+    background-color: #1a73e8;
+}
+.leftItem div .start a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
