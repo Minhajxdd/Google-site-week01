@@ -316,3 +316,36 @@ height: 350px;
 .sec4-box .box-content .two h5{
     max-width: 250px;
 }
+
+/* Section Seven */
+.sec-7-s{
+    margin-top: 150px;
+}
+.sec-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sec-7 h2{
+    font-size: 35px;
+}
+.sec-7 p{
+    color: #5F6368;
+    font-size: 18px;
+}
+.sec-7 div{
+    margin-top: 40px;
+    background-color: #1a73e8;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-7 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
