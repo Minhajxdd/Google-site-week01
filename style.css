@@ -299,3 +299,20 @@ height: 350px;
     justify-content: center;
     align-items: center;
 }
+
+/* Section Six */
+.sec5-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec5-head h2{
+    font-size: 33px;
+    margin-top: 70px;
+}
+.sec4-box .box-content .one h5{
+    max-width: 270px;
+}
+.sec4-box .box-content .two h5{
+    max-width: 250px;
+}
