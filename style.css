@@ -173,3 +173,32 @@ nav div .icon{
     padding: 0;
     font-size: 16px;
 }
+
+/* Section 2 */
+
+.sec2{
+    margin-top: 50px;
+    background-color: #FFFFFF;
+}
+
+.sec2 .left img{
+ transform: none;
+ padding: 50px;  
+ max-width: 75%; 
+height: 350px;
+}
+.sec2 .left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sec2 .right h2{
+   
+    max-width: 550px;
+    color: #202124;
+    font-size: 35px;
+}
+.sec2 .right{
+    display: flex;
+    align-items: flex-end;
+}
