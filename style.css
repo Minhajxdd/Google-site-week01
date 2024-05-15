@@ -7,9 +7,10 @@ nav{
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
     height: 60px;
     position: fixed;
+    top: 0px;
     width: 100%;
     display: fl;
-    
+    z-index: 10;
 }
 nav div{
     display: flex;
@@ -101,4 +102,74 @@ nav div .icon{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* Section one  */
+
+.sec1{
+    background-color: #F8F9FA;
+    max-height: 490px;
+    width: 100%;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.sec1 .left img{
+   width: 100%;
+   height: 490px;
+   padding: 0;
+   margin: 0;
+   transform: scaleX(1.34);
+ 
+}
+.sec1 .left{
+    overflow: hidden;
+}
+
+.sec1 .right{
+   
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.sec1 .right h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #202124;
+    font-size: 56px;
+    gap: 20px;
+}
+.sec1 .right h2{
+    color: #5F6368;
+    font-size: 25px;
+    font-weight: unset;
+}
+.sec1 .right p{
+    max-width: 540px;
+    color: #606469;
+    font-size: 18px;
+}
+.sec1 .right div{
+    width: 160px;
+    height: 50px;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1 .right div a{
+    text-decoration: none;
+}
+.sec1 .right div p{
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
 }
