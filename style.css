@@ -164,6 +164,10 @@ nav div .icon{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s;
+}
+.sec1 .right div:hover{
+    background-color: #174EA6;
 }
 .sec1 .right div a{
     text-decoration: none;
@@ -198,6 +202,10 @@ height: 350px;
     max-width: 550px;
     color: #202124;
     font-size: 35px;
+}
+.sec2 .right p a{
+    color: #1a73e8;
+    text-decoration: none;
 }
 .sec2 .right{
     display: flex;
@@ -257,6 +265,10 @@ height: 350px;
     max-width: 330px;
     font-size: 18px;
 }
+.sec3-box .box-content .two p a{
+    color: #1a73e8;
+    text-decoration: none;
+}
 
 /* Section five */
 .sec5{
@@ -298,6 +310,15 @@ height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+.sec5 .right a svg{
+    fill: #FFFFFF;
+    transition: 0.3s;
+}
+.sec5 .right a:hover , .sec5 .right a:hover svg{
+    color: #FFB5A9;
+    fill: #FFB5A9;
 }
 
 /* Section Six */
@@ -316,7 +337,10 @@ height: 350px;
 .sec4-box .box-content .two h5{
     max-width: 250px;
 }
-
+.sec4-box .box-content .two p a{
+    color: #1a73e8;
+    text-decoration: none;
+}
 /* Section Seven */
 .sec-7-s{
     margin-top: 50px;
@@ -345,6 +369,10 @@ height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s;
+}
+.sec-7 div:hover{
+    background-color: #174EA6;
 }
 .sec-7 a{
     color: #FFFFFF;
@@ -373,12 +401,16 @@ height: 350px;
     margin: 10px;
 }
 .sec-8 .form form input{
-    border: none;
+    border: 1px solid transparent;
     width: 330px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
     height: 50px;
     border-radius:4px;
     padding-left: 30px;
+    transition: 0.2s;
+}
+.sec-8 .form form input:hover{
+    border-color: black;
 }
 .sec-8 .form form input::placeholder{
     text-align: left;
@@ -386,7 +418,7 @@ height: 350px;
     font-size: 15px;
 }
 .sec-8 .form form select{
-    border: none;
+    border: 1px solid transparent;
     width: 330px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
     height: 50px;
@@ -394,6 +426,10 @@ height: 350px;
     padding-left: 20px;
     background-color: #FFFFFF;
     font-family: s;
+    transition: 0.2s;
+}
+.sec-8 .form form select:hover{
+    border-color: black;
 }
 .sec-8 .form form{
     display: flex;
