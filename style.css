@@ -319,7 +319,8 @@ height: 350px;
 
 /* Section Seven */
 .sec-7-s{
-    margin-top: 150px;
+    margin-top: 50px;
+    padding: 100px;
 }
 .sec-7{
     display: flex;
@@ -348,4 +349,116 @@ height: 350px;
 .sec-7 a{
     color: #FFFFFF;
     text-decoration: none;
+}
+
+/* Section eight */
+.sec-8-s{
+    background-color: #F1F3F4;
+}
+.sec-8{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-8 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.sec-8 div{
+    margin: 10px;
+}
+.sec-8 .form form input{
+    border: none;
+    width: 330px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    border-radius:4px;
+    padding-left: 30px;
+}
+.sec-8 .form form input::placeholder{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.sec-8 .form form select{
+    border: none;
+    width: 330px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    border-radius:4px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    font-family: s;
+}
+.sec-8 .form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sec-8 .form{
+    margin-top: 40px;
+}
+.sec-8 .check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 700px;
+}
+#checkbox1{
+    width: 30px;
+    height: 30px;
+}
+.sec-8 .check p{
+    color:#737373;
+    font-size: 11.5px;
+}
+.sec-8 .form form select{
+    padding: 15px;
+}
+.sec-8 .term{
+    margin-right: auto;
+}
+.sec-8 .term p{
+    color:#737373;
+    font-size: 11.5px;
+}
+.sec-8 .term a{
+    text-decoration: none;
+}
+.sec-8 .content{
+    max-height: 300px;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec-8 .btn div{
+    height: 50px;
+    width: 100px;
+    background-color: #FFFFFF;
+    color: #1a73e8;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+}
+.sec-8 .btn div:hover{
+    border-color:  #1a73e8;
+    background-color: #F1F3F4;
+}
+.sec-8 .btn div a{
+    text-decoration: none;
+}
+.sec-8 .btn{
+    margin-left: auto;
 }
