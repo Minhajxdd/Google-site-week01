@@ -498,3 +498,89 @@ height: 350px;
 .sec-8 .btn{
     margin-left: auto;
 }
+
+/* Section nine */
+.sec-9 .two svg{
+    height: 20px;
+}
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.input-wrapper input {
+    padding-left: 30px; /* Adjust padding to fit the icon */
+    padding-right: 10px; /* Additional padding to ensure text is not too close to the edge */
+    box-sizing: border-box;
+}
+
+.input-wrapper .icon {
+    position: absolute;
+    left: 10px; /* Adjust to position the icon inside the input field */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensures the icon doesn't block input field interaction */
+    color: #ccc; /* Adjust the color of the icon */
+}
+.sec-9{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 50px 200px;
+    padding-bottom: 30px;
+    gap: 45px;
+    border-bottom: 1px solid #DADCE0;
+
+}
+.sec-9 .one{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.sec-9 .one p{
+    color: #6C6C6C;
+}
+.sec-9 .one p a{
+    font-weight: bold;
+    color: #7327b9;
+}
+.sec-9 .one p a:hover{
+    color:#202124;
+}
+.sec-9 .one h1{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.sec-9 .two svg{
+    margin: 0;
+    padding: 0;
+    fill: #5F6368;
+    height: 25px;
+}
+.sec-9 .two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.sec-9 .input-wrapper{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sec-9 .input-wrapper input{
+    background-color: #F1F3F4;
+    border: none;
+    height: 50px;
+    width: 370px;
+}
+.sec-9 .input-wrapper input:hover{
+    background-color: #FFFFFF;
+}
+.sec-9 .input-wrapper i{
+    color: #80868B;
+}
