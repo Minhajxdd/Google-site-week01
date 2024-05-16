@@ -578,9 +578,42 @@ height: 350px;
     height: 50px;
     width: 370px;
 }
-.sec-9 .input-wrapper input:hover{
+.sec-9 .input-wrapper input:active{
     background-color: #FFFFFF;
 }
 .sec-9 .input-wrapper i{
     color: #80868B;
+}
+
+/* footer main*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.footer div{
+    width: 214px;
+    height: 535px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.footer div a{
+    text-decoration: none;
+    color: #6C6C6C;
+}
+.footer div a:hover{
+    color: #202124;
+}
+.footer div h5{
+    font-size: 15px;
+}
+.footer div p{
+    font-size: 13px;
+}
+.footer div .tp{
+    margin-top: 35px;
 }
