@@ -658,3 +658,26 @@ height: 350px;
 .footer-l .left a:hover{
     color: #292A2D;
 }
+
+/* Chat Section */
+.chat{
+    background-color: #4284F4;
+    border-radius: 50%;
+    position: fixed;
+    width: 60px;
+    right: 25px;
+    bottom: 25px;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   }
+.chat svg{
+    fill: #ffff;
+    width: 30px;
+    height: 30px;
+    
+}
+.chat:hover{
+    cursor: pointer;
+}
