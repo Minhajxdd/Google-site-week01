@@ -730,5 +730,29 @@ height: 350px;
         transform: scaleY(none);
         height: 450px;
     }
+    .sec-9 .input-wrapper input{
+        max-width:900px;
+    }
+    .sec-9 .input-wrapper{
+        margin: 0;
+        justify-content: center;
+    }
+    .sec-9{
+        margin: 50px 0;
+        justify-content: center;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .footer .five{
+        display: none;
+    }
+    .footer-l{
+        margin: 0 20px;
+    }
 
 }
