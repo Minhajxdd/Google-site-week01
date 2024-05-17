@@ -689,7 +689,36 @@ height: 350px;
     cursor: pointer;
 }
 
-/* Adding media queries */
+    /* chat close box */
+.chat-box{
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 25px;
+    right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+    height: 100px;
+    box-shadow: 5px 5px 26px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.chat-box p{
+    font-size: 17px;
+}
+
+.close-box-svg{
+    fill: #CACED2;
+    height: 25px;
+    width: 25px;
+    position: fixed;
+    bottom: 129px;
+    right: 274px;
+}
+
+
+/* Adding media queries 1000px*/
 
 @media(max-width: 1000px){
     body{

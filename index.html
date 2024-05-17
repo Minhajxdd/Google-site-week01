@@ -354,5 +354,26 @@
         <div class="chat">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
         </div>
+        <!-- close box -->
+        <svg onclick=hidechat() class="close-box-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
+        <div onclick=hidechat() class="chat-box">
+            <p>
+                Hi there 👋 What brings you to Google Workspace today?
+            </p>
+        </div>
+
+
+
+        <br><br><br><br><br><b><b><br><br><br>
+        </b></b>
+
+        <script>
+            function hidechat(){
+                var chat = document.querySelector(".chat-box");
+                chat.style.display = 'none';
+                var chat_svg = document.querySelector(".close-box-svg");
+                chat_svg.style.display = 'none';
+            }
+        </script>
     </body>
 </html>
