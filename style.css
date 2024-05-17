@@ -717,6 +717,18 @@ height: 350px;
     .sec3 .left{
         justify-content: center;
     }
-    
+    .sec3-box .box-conten{
+       gap: 10px;
+    }
+    .sec3-box .box-content div{
+        width: 200px;
+    }
+    .sec5 .right{
+        margin: 0;
+    }
+    .sec5 .left img{
+        transform: scaleY(none);
+        height: 450px;
+    }
 
 }
