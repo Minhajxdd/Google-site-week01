@@ -110,10 +110,10 @@ nav div .icon{
 
 .sec1{
     background-color: #F8F9FA;
-    max-height: 490px;
+    min-height: 490px;
     width: 100%;
     margin-top: 60px;
-    display: grid;
+    display: flex;
     grid-template-columns: 50% 50%;
 }
 .sec1 .left img{
@@ -121,15 +121,17 @@ nav div .icon{
    max-height: 490px;
    padding: 0;
    margin: 0;
-   transform: scaleX(1.34);
- 
+   transform: scaleX(1.34); 
 }
+
+
 .sec1 .left{
     overflow: hidden;
+    width: 50%;
 }
 
 .sec1 .right{
-   
+   width: 50%;
     margin: 50px;
     display: flex;
     flex-direction: column;
@@ -178,6 +180,22 @@ nav div .icon{
     padding: 0;
     font-size: 16px;
 }
+@media(max-width: 1000px){
+    .sec1{
+        flex-direction: column;
+    }
+    .sec1 .left{
+        width: 100%;
+        order: 1;
+        
+    }
+    .sec1 .right{
+        width: 100%;
+        align-items: center;
+        margin: 30px;
+    }
+}
+
 
 /* Section 2 */
 
