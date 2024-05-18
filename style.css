@@ -798,5 +798,9 @@ height: 350px;
         margin-top: 10px;
     }
 
-
+}
+@media(max-width:1130px){
+    .sec3-box .box-content{
+        gap: 10px;
+    }
 }
