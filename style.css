@@ -923,6 +923,20 @@ height: 350px;
     .sec1{
         margin-top: 120px;
     }
+    .footer-l{
+        padding: 20px;
+        margin: 0 30px;
+        justify-content: flex-start;
+    }
+    .footer-l div p{
+        font-size: 10px;
+    }
+    .footer-l .right{
+        display: none;
+    }
+    .footer-l .left img{
+        height: 20px;
+    }
     
     
 }
@@ -1057,4 +1071,20 @@ height: 350px;
     .sec5 .left img{
         height: 150px;
     }
+    footer .footer .three,
+    footer .footer .four,
+    footer .footer .two
+    {
+        display: none;
+    }
+    footer .footer div{
+        align-items: center;
+        justify-content: center;
+        margin: 0 100px;
+        height: 400px;
+    }
+    .footer{
+       height: 400px;
+    }
+    
 }
