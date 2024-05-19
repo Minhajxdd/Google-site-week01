@@ -31,6 +31,7 @@ nav{
 }
 nav .one{
     margin-left: 25px;
+    margin-top: 12px;
 }
 nav .two{
     display: flex;
@@ -90,6 +91,32 @@ nav .three .box3:hover{
     cursor: pointer;
     background-color: #174EA6;
 }
+nav .menu{
+    display: none;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+nav .menu .menuBar{
+    width: 23px;
+    height: 20px;
+    transition: 300ms;
+    fill: #000000;
+}
+nav .menu .menuBar:hover{
+    cursor: pointer;
+}
+nav .menu .xBar:hover{
+    cursor: pointer;
+}
+nav .menu .xBar{
+    display: none;
+     width: 23px;
+    height: 20px;
+    transition: 300ms;
+    fill: #000000;
+}
 @media(max-width:1250px){
     nav .two{
         border-top: 0.5px solid #c3c9cf;
@@ -114,6 +141,23 @@ nav .three .box3:hover{
         margin-top: 60px;
     }
 }
+
+@media(max-width:600px){
+    nav .three div , nav .two{
+        display: none;
+    }
+    nav{
+        gap: 0;
+    }
+    nav .one{
+        margin-left: 0px;
+    }
+    nav .menu{
+        display: block;
+        display: flex;
+    }
+}
+
 
 
 /* Section one  */
@@ -1020,12 +1064,6 @@ height: 350px;
     }
     .sec-7 h2{
         font-size: 25px;
-    }
-    nav .two{
-        display: none;
-    }
-    nav .three div{
-        display: none;
     }
     .sec5 .left img{
        height: 350px;
