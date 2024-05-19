@@ -11,10 +11,8 @@ function popUp(){
     chat_svg.style.display = 'none';
     var go = document.querySelector(".chat");
     go.style.display = 'none';
-    setTimeout(function() {
-        var pop = document.querySelector(".chat-pop");
-        pop.style.display = 'block'; 
-    }, 500);  
+    var pop = document.querySelector(".chat-pop");
+    pop.style.display = 'block';   
 }
 function popdown(){
     var pop = document.querySelector(".chat-pop");
