@@ -123,7 +123,7 @@ nav .menu .xBar{
     display: none;
     background-color: white;
     width: 100%;
-    height: 85%;
+    height: 87%;
     position: fixed;
     top: 65px;
     left: 0;
@@ -132,6 +132,80 @@ nav .menu .xBar{
     padding: 15px;
     display: flex;
 }
+
+.drop600 .elements a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.drop600 .elements p svg{
+    height: 14px;
+}
+
+.drop600 .btn{
+    height: 130px;
+    width: 100%;
+    border-top: 0.5px solid #d6d2d2;
+}
+
+.drop600 .elements{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop600 .btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.drop600 .btn div{
+    cursor: pointer;
+}
+
+.drop600 .btn div a{
+    text-decoration: none;
+}
+
+.drop600 .btn .btn1{
+    width: 95%;
+    outline: 1px solid #d6d2d2;
+    padding: 10px;
+    text-align: center;
+}
+
+.drop600 .btn .btn1:hover{
+    background-color: #F1F3F4;
+    outline-color: #1A73E8;
+}
+
+.drop600 .btn .btn1  a{
+    padding: 30px;
+    color: #1A73E8;
+}
+
+.drop600 .btn .btn2{
+    width: 95%;
+    padding: 10px;
+    text-align: center;
+    background-color: #1A73E8;
+}
+
+.drop600 .btn .btn2 a{
+    color: #fff;
+}
+
+.drop600 .btn .btn2:hover{
+    background-color: #174EA6;
+}
+
 
 @media(max-width:1250px){
     nav .two{
