@@ -46,9 +46,10 @@ nav .two li{
 nav .two a{
     text-decoration: none;
     font-size: 14px;
+    color: rgb(83, 80, 80);
 }
 nav .two a:hover{
-    color: black;
+    color: rgb(13, 13, 13);
 }
 nav .three{
     display: flex;
@@ -116,6 +117,25 @@ nav .menu .xBar{
     height: 20px;
     transition: 300ms;
     fill: #000000;
+}
+
+nav .two li a svg{
+    height: 10px;
+    display:none;
+    position: absolute;
+    top: 20px;
+    left: 27px;
+}
+nav .two a{
+    position: relative;
+}
+nav .two a:hover > svg{
+    display: block;
+}
+
+nav .two li a{
+    display: flex;
+    flex-direction: column;
 }
 
 /* nav 600drop */
@@ -207,8 +227,128 @@ nav .menu .xBar{
 }
 
 
+/* Drop down First  => solution's */
+
+.dropone{
+   
+    background-color: #FFFFFF;
+    position: fixed;
+    height: 75%;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    z-index: 90;
+    display: flex;
+    border-top: 1px solid #DADCE0;
+    display: none;
+}
+
+.dropone > div{
+    margin-top: 10px;
+    padding: 50px;
+}
+
+.dropone .one{
+    background-color: #fff;
+    width: 63%;
+    flex-shrink: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    margin-top: 0;
+}
+
+
+
+.dropone .one .parts h4{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #656567;
+}
+
+.dropone .one .parts .box1{
+    margin-top: 10px;
+    border-top: 2px solid #DADCE0;
+}
+
+.dropone .one .parts .box1{
+    margin-top: 20px;
+}
+
+.dropone .one .parts .box1 .business{
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dropone .one .parts div .contents{
+    margin-top: 15px;
+}
+
+.dropone .one .parts div .contents h4 a{
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.dropone .one .parts div .contents h4 a:hover{
+    color:  #1967D2;
+}
+
+.dropone .one .parts div  .contents p a{
+    font-size: 13px;
+    color: #80868B;
+    text-decoration: none;
+}
+
+.dropone .two{
+    background-color: #FAFAFA;
+    width: 37%;
+}
+
+
+.dropone .one .parts{
+    margin-top: 25px;
+    width: 90%;
+    height: 90%;
+    position: relative; 
+}
+
+.dropone .one .parts .box2{
+    position: absolute;
+    top: 51px;
+    left: 284px;
+}
+
+.dropone .one .parts .box2 .business{
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dropone .two div{
+    margin-top: 90px;
+}
+
+.dropone .two p{
+    margin-top: 15px;
+}
+
+.dropone .two p a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.dropone .two p a:hover{
+    color: #1967D2;
+}
+
+
 @media(max-width:1250px){
     nav .two{
+        z-index: 99;
         border-top: 0.5px solid #c3c9cf;
         margin: 0;
         height: 60px;

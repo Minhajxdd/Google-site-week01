@@ -58,9 +58,34 @@ window.addEventListener('load', checkWidth);
 
 function checkWidth(){
     var off = document.querySelector('.drop600');
-
+    var dropDown = document.querySelector(".dropone");
+  
     if(window.innerWidth >= 650){
         off.style.display = 'none';
         navgo();
+    }
+
+    if(window.innerWidth < 1250){
+        dropDown.style.display = 'none';
+        
+    }
+}
+
+
+function dropDownOne(){
+    const dropDown = document.querySelector(".dropone");
+    
+
+    if(window.innerWidth < 1250){
+        dropDown.style.display = 'none';
+        return;
+    }
+
+
+    if(dropDown.style.display === 'none'){
+    dropDown.style.display = 'block';
+    dropDown.style.display = 'flex';
+    }else {
+        dropDown.style.display = 'none';
     }
 }
