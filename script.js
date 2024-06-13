@@ -75,15 +75,12 @@ function checkWidth(){
 function dropDownOne(){
     const dropDown = document.querySelector(".dropone");
     
-
     if(window.innerWidth < 1250){
         dropDown.style.display = 'none';
         return;
     }
 
-
     if(dropDown.style.display === 'none'){
-    dropDown.style.display = 'block';
     dropDown.style.display = 'flex';
     }else {
         dropDown.style.display = 'none';

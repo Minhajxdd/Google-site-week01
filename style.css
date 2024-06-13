@@ -128,6 +128,7 @@ nav .two li a svg{
 }
 nav .two a{
     position: relative;
+    cursor: pointer;
 }
 nav .two a:hover > svg{
     display: block;
@@ -233,7 +234,7 @@ nav .two li a{
    
     background-color: #FFFFFF;
     position: fixed;
-    height: 75%;
+    height: 70%;
     top: 60px;
     left: 0px;
     right: 0px;
